@@ -178,5 +178,23 @@
     "active": true,
     "photo": "user-20.jpg",
     "password": "$2a$12$uA9FsDw63v6dkJKGlLQ/8ufYBs8euB7kqIQewyYlZXU5azEKeLEky"
+  },
+  {
+    "id": null,
+    "name": "Noman Ejaz",
+    "email": "noman.ejaz@natours.io",
+    "role": "admin",
+    "active": true,
+    "photo": "noman-ejaz.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
+  },
+  {
+    "id": 1,
+    "name": "Usman Ejaz",
+    "email": "usman.ejaz@natours.io",
+    "role": "admin",
+    "active": true,
+    "photo": "usman-ejaz.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
   }
 ]
