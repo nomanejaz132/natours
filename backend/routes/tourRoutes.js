@@ -5,19 +5,12 @@ const {
   getSingleTour,
   updateTour,
   deleteTour,
-  checkID,
   checkBody,
 } = require('./../controllers/tourController');
 
-const tourRouter = express.Router();
+const router = express.Router();
 
-tourRouter.param('id', checkID);
+router.route('/').get(getAllTours).post(checkBody, createTour);
+router.route('/:id').get(getSingleTour).patch(updateTour).delete(deleteTour);
 
-tourRouter.route('/').get(getAllTours).post(checkBody, createTour);
-tourRouter
-  .route('/:id')
-  .get(getSingleTour)
-  .patch(updateTour)
-  .delete(deleteTour);
-
-module.exports = tourRouter;
+module.exports = router;
